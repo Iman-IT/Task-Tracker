@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --para:#777;
+    --heading:darkblue;
+    --para-tint:#e4e4e4;
+    --helper:#8490ff;
+    --gradient:linear-gradient(0deg, rgb(132 144 255) 0%, rgb(98 189 252)100%);
+    --gradientSupport:-webkit-linear-gradient(
+        0deg, rgb(132 144 255) 0%, rgb(98 189 252)100%; );
+        --shadow:0px 0px 20px 0px rgb(132 144 255/20%);
+        --shadowSupport:0px 0px 30px 0px rgb(142 144 255/20%);
+    }
+h1{
+    color: #8490ff;
+    font-size: 5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+}
+
+h3{
+    color: #8490ff;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+p{
+color:var(--para);
+line-height: 1.6rem;
+font-size: 1.3rem;
+}
+
+.btn{
+    color: white;
+    font-size: 1.8rem;
+    cursor: pointer;
+    background: var(--gradient);
+    box-shadow:3px 5px 10px rgb(130 140 205);
+    transition: all 0.5s;
+}
+.btn:active,
+.btn:hover{
+box-shadow:2px 4px 10px rgb(132 144 255);
+;
+}
+#main-img{
+    height:30rem ;
+}
+#bio-img{
+    height: 33rem;
+    box-shadow: -2rem -2rem 0 0 #efc306;
+}
+
+.bio-data-states{
+    display: flex;
+    flex-direction: column;
+    max-height: 30rem;
+    /* gap: 2.5rem; */
+
+}
+.progress-bar{
+    background: (0deg, rgb(132 144 255) 0%, rgb(98 189 252)100%);
+    border-radius: 10rem;
+   
+   
+}
+
+.portfolio-images{
+    gap: 4.2rem;
+    overflow: hidden;
+}
+.portfolio-images img{
+    width: 100%;
+    border-radius: 0.7rem;
+    position: relative;
+    overflow: hidden;
+}
+.card{
+    height: 30rem;
+}
+
+  

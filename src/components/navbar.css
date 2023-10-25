@@ -1,0 +1,26 @@
+nav{  
+    position: relative; z-index: 1; }
+  nav ul li{
+  margin: 4px 4px;  
+  padding: 6px 5px; 
+   list-style: none; 
+   font-weight: 8px;
+       }
+  nav ul li .nav-item{ 
+    color: white;
+    
+
+  font-size: 20px; 
+  text-decoration: none;
+ transition: 0.5 all ease;
+}
+nav ul li a{
+  font-size: 25px;
+}
+
+  
+  
+  
+  
+  
+  
